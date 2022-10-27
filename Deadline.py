@@ -97,7 +97,20 @@ def print2DArrayOverleaf(W):
     print("\\end{tabular}")
     print("\\end{table}")
 
+ #
+W3 = [
+['a', 27],
+['e', 22],
+['h', 33],
+['j', 25],
+['o', 24],
+['r', 20],
+['u', 17]
+]
+#joblst = lst_to_dic(W2)
+#print2DArrayOverleaf(W3)
+#Deadline_Schedual(joblst)
 
-joblst = lst_to_dic(W2)
-#print2DArrayOverleaf(W2)
-Deadline_Schedual(joblst)
+s = [8, 16, 38, 113, 15, 30, 49, 14, 20]
+W3.sort(key = lambda x: x[1])
+print(W3)
