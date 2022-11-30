@@ -46,6 +46,17 @@ W = [[0,   7,   4,   6,   1],
      [inf, 3,   inf, 0,   inf],
      [inf, inf, inf, 1,   0]
     ]
-
+W3 = [
+    [0,inf,inf,inf,4,inf,inf,9,inf,inf],
+    [inf,0,inf,inf,inf,inf,3,inf,inf,inf],
+    [inf,inf,0,inf,inf,inf,inf,inf,9,10],
+    [inf,inf,inf,0,inf,inf,inf,inf,inf,inf],
+    [inf,inf,inf,inf,0,1,inf,inf,inf,inf],
+    [inf,inf,inf,inf,inf,0,inf,3,inf,10],
+    [inf,inf,inf,inf,inf,inf,0,inf,inf,inf],
+    [inf,3,5,inf,inf,inf,4,0,inf,inf],
+    [inf,inf,inf,6,inf,inf,inf,inf,0,5],
+    [inf,inf,inf,7,inf,inf,inf,inf,inf,0]
+]
 print("output of Dijkstra indexing at 0")
-print(dijkstra(W))
+print(dijkstra(W3))
