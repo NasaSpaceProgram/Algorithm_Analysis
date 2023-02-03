@@ -1,6 +1,7 @@
 from copy import deepcopy
 def subSum(W, w, notincludedNum, included= [] , incN = 0, i = -1):
     nincN = notincludedNum 
+
     if promising(W,w, incN, nincN, i):
         if incN == W:
             print(included)
@@ -28,6 +29,7 @@ w = [3,4,5,6]
 
 W = 52
 w = [2,10,13,17,22,42]
+
 
 
 subSum(W, w, sum(w))

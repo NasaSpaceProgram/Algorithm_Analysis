@@ -58,5 +58,6 @@ lst = [
     ["g",21]
 ]
 
+
 T = MakeTable(lst)
 main(T)
